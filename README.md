@@ -1,24 +1,39 @@
-> ⚠ **Note:** This project is a **basic example** intended for learning how to work with a database.  
+📦 Publicación en Docker Hub
+docker pull cristhofer040/login-app:latest
 
-If you're looking for a **better authentication system** with **more features** and **cleaner code**, check out my **new and improved repository**:  
+# 🎬 Practical Final - Aplicaciones Web
 
-🔗 **[Better Version of This Project](https://github.com/francis-njenga/php-auth-starter-kit-beginner)** 🚀
+Este proyecto es una aplicación web PHP con sistema de login, validaciones frontend y backend, manejo de sesiones y conexión a base de datos MySQL. Fue construido como parte del proyecto final del curso de Aplicaciones Web.
 
-# Simple Registration and Login Form
+---
 
-This repository contains a basic example of how to implement a registration and login form connected to a database. It serves as an introduction to form handling in a web application.
+## 🛠️ Tecnologías utilizadas
 
-### Important Notice
+- PHP 8.1
+- MySQL 5.7
+- HTML, CSS, JavaScript
+- Docker + Docker Compose
 
-For production use or to ensure better security, it's highly recommended to incorporate proper security measures such as:
-- Using **prepared statements** to prevent SQL injection.
-- Considering a web framework like **Laravel** for more secure and scalable solutions.
+---
 
-### Video Tutorial
+## 🚀 ¿Cómo ejecutarlo con Docker?
 
-For more details on using prepared statements and input validation, you can check out my video tutorial here:
-[Watch the video](https://www.youtube.com/@CristhoferSantos-100)
+Puedes correr la aplicación fácilmente con Docker siguiendo estos pasos:
 
-You can watch the full tutorial on how to set up a login form with database connection on my YouTube channel:  
-[Cris Tech](https://www.youtube.com/@CristhoferSantos-100)
+### 🔃 Requisitos previos
+
+- Tener instalado Docker y Docker Compose
+- Tener habilitado el puerto 8080 en tu máquina
+- Tener instalado git
+
+### 🧾 Clonar el repositorio
+
+```bash
+git clone https://github.com/Cristhofersantose/Aplicaciones-web-.git
+cd Aplicaciones-web-
+
+##🐳 Levantar los contenedores
+docker-compose up --build
+
+
 
