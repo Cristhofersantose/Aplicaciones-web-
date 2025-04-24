@@ -33,7 +33,7 @@ git clone https://github.com/Cristhofersantose/Aplicaciones-web-.git
 cd Aplicaciones-web-
 
 ##🐳 Levantar los contenedores
-docker-compose up --build
+docker-compose up -d
 
 
 
